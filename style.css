@@ -97,7 +97,6 @@ article {
     width: 100%;
     height: fit-content;
 
-
     line-height: 2rem;
 
     p {
@@ -126,6 +125,13 @@ article {
             img {
                 width: 100%;
             }
+
+        }
+    }
+
+    & .reverse {
+        @media (max-width: 420px) {
+            flex-direction: column-reverse;
         }
     }
 }
