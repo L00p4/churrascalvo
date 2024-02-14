@@ -4,6 +4,7 @@ body {
         height: 100vh;
         height: 100dvh;
 
+        /* background-image: url("assets/flames.gif"); */
         background-image: url("assets/grelha-com-espetos.jpg");
         background-position: center;
         background-repeat: no-repeat;
